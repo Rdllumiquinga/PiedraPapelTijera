@@ -1,0 +1,56 @@
+body{
+    background-color: #e9ecef;
+    height: 100%;
+    width: 100%;
+}
+
+#header{  
+    height: 100%;
+    width: 100%;
+}
+
+.btn{
+    cursor: pointer !important;
+}
+
+.jumbotron{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-light, .option {
+    color: #5b6773;
+    background-color: #ffffff;
+    border-color: #e0e2e6;
+}
+
+.btn-light:hover, .option:hover {
+    color: #e9ecef;
+    background-color: #687786;
+    border-color: #e9ecef;
+    transition: all 0.3s ease-in-out;
+}
+
+.option {
+    padding: 75px;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+
+/* PADDING */
+.btn.paddingxxxl{
+    padding: 30px 75px;
+}
+
+/* FONT */
+.font-xl{
+    font-size: 20px;
+}
+.font-xxl{
+    font-size: 25px;
+}
+
+.bold{
+    font-weight: bold;
+}
